@@ -22,7 +22,6 @@ import sys
 import os
 from os.path import realpath, dirname
 rlbot_directory = dirname(dirname(dirname(realpath(__file__))))
-# 'C:\Users\dom\Documents\GitHub\RLBot\rlbot.cfg'
 sys.path.append(rlbot_directory)
 from RlBotFramework.grpcsupport.protobuf import game_data_pb2
 from RlBotFramework.grpcsupport.protobuf import game_data_pb2_grpc
